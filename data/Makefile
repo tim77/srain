@@ -23,8 +23,8 @@ $(RES): srain.gresource.xml $(GLADES) $(ICONS)
 config: builtin.cfg
 	$(INSTALL) -Dm644 "$<" "$(DESTDIR)$(PACKAGE_CONFIG_DIR)/$(PACKAGE)/$<"
 
-icons: icons/scalable/srain.png
-	$(INSTALL) -Dm644 "$<" "$(DESTDIR)$(PACKAGE_DATA_DIR)/icons/hicolor/scalable/apps/$(PACKAGE_APPID).png"
+icons: icons/scalable/srain.svg
+	$(INSTALL) -Dm644 "$<" "$(DESTDIR)$(PACKAGE_DATA_DIR)/icons/hicolor/scalable/apps/$(PACKAGE_APPID).svg"
 
 themes: $(THEMES)
 	for i in $^; do \

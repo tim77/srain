@@ -57,7 +57,7 @@
                       <object class="GtkImage" id="start_image">
                         <property name="visible">True</property>
                         <property name="can_focus">False</property>
-                        <property name="icon_name">im.srain.Srain</property>
+                        <property name="icon_name">srain-start</property>
                         <property name="use_fallback">True</property>
                       </object>
                     </child>
