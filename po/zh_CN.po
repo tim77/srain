@@ -44,17 +44,17 @@ msgstr "\"%1$s\" 已加入到 %2$s 的中继机器人列表"
 #: ../src/core/chat_command.c:628 ../src/core/app_ui_event.c:365
 #, fuzzy, c-format
 msgid "\"%1$s\" has ignored"
-msgstr "%1$s 加入了频道"
+msgstr "已经忽略 %1$s "
 
 #: ../src/core/chat_command.c:653 ../src/core/app_ui_event.c:368
 #, fuzzy, c-format
 msgid "\"%1$s\" has unignored"
-msgstr "%1$s 加入了频道"
+msgstr "已经接触对 %1$s 的忽略"
 
 #: ../src/core/chat_command.c:623
 #, fuzzy, c-format
 msgid "\"%1$s\" is already ignored"
-msgstr "服务器 \"%1$s\" 已创建"
+msgstr "\"%1$s\" 已被忽略，无需再次执行"
 
 #: ../src/filter/regex.c:105
 #, c-format
@@ -64,17 +64,17 @@ msgstr "\"%1$s\" 已从 %2$s 的屏蔽列表中移除"
 #: ../src/decorator/relay.c:74
 #, c-format
 msgid "\"%1$s\" is removed from %2$s 's relaybot list"
-msgstr "\"%1$s\" 已从 %2$s 的中继机器人列表中移除"
+msgstr "已从 %2$s 的中继机器人列表中移除 \"%1$s\""
 
 #: ../src/filter/regex.c:118
 #, c-format
 msgid "\"%1$s\" not found in %2$s 's ignore list"
-msgstr "\"%1$s\" 无法在 %2$s 的屏蔽列表中被找到"
+msgstr "无法在 %2$s 的屏蔽列表中找到 \"%1$s\""
 
 #: ../src/decorator/relay.c:84
 #, c-format
 msgid "\"%1$s\" not found in %2$s 's relaybot list"
-msgstr "\"%1$s\" 无法在 %2$s 的转发机器人列表中被找到"
+msgstr "无法在 %2$s 的转发机器人列表中找到 \"%1$s\" "
 
 #: ../data/ui/window.glade:136 ../data/ui/side_bar_item.glade:31
 #, fuzzy
@@ -223,7 +223,7 @@ msgstr ""
 
 #: ../data/ui/window.glade:307
 msgid "<big>Welcome to Srain!</big>"
-msgstr ""
+msgstr "<big>欢迎使用 Srain！</big>"
 
 #: ../data/ui/recv_message.glade:88 ../data/ui/send_message.glade:22
 #: ../data/ui/misc_message.glade:23
